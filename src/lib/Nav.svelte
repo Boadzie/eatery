@@ -11,15 +11,14 @@
 </script>
 
 <nav
-	class="fixed z-50 flex flex-wrap items-center justify-between w-full p-4 bg-gray-900 sm green lg:bg-gray-900 pin-t"
+	class="fixed z-50 flex flex-wrap items-center justify-between w-full p-4 bg-none sm green  pin-t"
 >
 	<div class="flex items-center mr-6 text-white flex-no-shrink" />
-	<a class="hover:bg-trasparent" href="/">
-		<img
-			class="object-cover object-center w-12 h-12 overflow-hidden rounded-full"
-			src="img/cover1.jpg"
-			alt="logo"
-		/>
+	<a
+		class="inline-block px-4 py-2 no-underline text-2xl  hover:text-white hover:text-underline font-extrabold"
+		href="/"
+	>
+		Elleven<span class="tomato-text ">15</span>
 	</a>
 	<div class="block text-white lg:hidden">
 		<button
@@ -37,7 +36,7 @@
 		class="flex-grow hidden w-full pt-6 text-lg font-bold lg:flex lg:items-center lg:w-auto lg:pt-0"
 		id="nav-content"
 	>
-		<ul class="items-center justify-end flex-1 text-2xl list-reset lg:flex">
+		<ul class="items-center justify-center flex-1 text-2xl list-reset lg:flex">
 			<li class="mr-3">
 				<a
 					href="#menus"
@@ -63,6 +62,10 @@
 				</a>
 			</li>
 		</ul>
+		<a
+			class="text-2xl tomato-bg inline-block px-4 py-2 no-underline hover:text-white hover:text-grey-lighter hover:text-underline"
+			href="/">Contact Us</a
+		>
 	</div>
 </nav>
 
@@ -76,9 +79,16 @@
 		background-repeat: repeat-x;
 		background-size: 30%;
 		border-bottom: 10;
-		background-color: #f0a645;
+		background-color: tomato;
 		border-radius: 5px;
 		padding-bottom: 0.3em;
 		text-decoration: none;
+	}
+	.tomato-bg {
+		background-color: tomato;
+		border-radius: 1px;
+	}
+	.tomato-text {
+		color: tomato;
 	}
 </style>
