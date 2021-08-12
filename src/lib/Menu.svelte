@@ -1,9 +1,9 @@
 <section class="py-24 text-white bg-gray-100">
-    <h2 class="pb-8 text-5xl font-bold text-center text-gray-500">Special Menu</h2>
+    <h2 class="pb-8 text-4xl font-bold text-center text-gray-500 lg:text-5xl">Menu</h2>
 	<div class="flex items-center justify-center">
 		<div class="grid grid-cols-1 mx-5 md:grid-cols-2 lg:grid-cols-4 lg:mx-14 gap-y-2">
 			<div class="flex flex-col justify-center bg-white">
-				<h2 class="p-2 font-mono text-3xl text-gray-500">Grilled Caesar salad</h2>
+				<h2 class="p-2 font-mono text-2xl text-gray-500 lg:text-3xl">Grilled Caesar salad</h2>
 				<p class="p-3 text-lg font-bold text-gray-400">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...
 				</p>
@@ -17,7 +17,7 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center bg-white ">
-				<h2 class="p-3 font-mono text-3xl text-gray-500">Golden Spagetti</h2>
+				<h2 class="p-3 font-mono text-2xl text-gray-500 lg:text-3xl">Golden Spagetti</h2>
 				<p class="p-3 text-lg font-bold text-gray-400">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...
 				</p>
@@ -38,7 +38,7 @@
 				/>
 			</div>
             <div class="flex flex-col justify-center bg-white ">
-				<h2 class="p-3 font-mono text-3xl text-gray-500">Jangle Salad</h2>
+				<h2 class="p-3 font-mono text-2xl text-gray-500 lg:text-3xl">Jangle Salad</h2>
 				<p class="p-3 text-lg font-bold text-gray-400">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...
 				</p>
@@ -53,7 +53,7 @@
 				/>
 			</div>
             <div class="flex flex-col justify-center bg-white ">
-				<h2 class="p-3 font-mono text-3xl text-gray-500">Jangle Chips</h2>
+				<h2 class="p-3 font-mono text-2xl text-gray-500 lg:text-3xl">Jangle Chips</h2>
 				<p class="p-3 text-lg font-bold text-gray-400">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...
 				</p>

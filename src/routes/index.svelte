@@ -4,6 +4,7 @@
     import Special from '$lib/Special.svelte';
 	import Swiper from '$lib/Swiper.svelte';
 	import Menu from '$lib/Menu.svelte';
+	import Blog from '$lib/Blog.svelte';
 </script>
 
 <Banner />
@@ -11,3 +12,4 @@
 <Special/>
 <Menu/>
 <Swiper/>
+<Blog/>
