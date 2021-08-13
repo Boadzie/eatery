@@ -1,7 +1,10 @@
 <script>
+	
 	import '../app.postcss';
 	import Nav from '$lib/Nav.svelte';
-import Footer from '$lib/Footer.svelte';
+	import Footer from '$lib/Footer.svelte';
+
+
 </script>
 
 <Nav />
@@ -10,7 +13,10 @@ import Footer from '$lib/Footer.svelte';
 </main>
 <Footer/>
 <style>
-	:global(body) {
+	:global(body, html) {
+		scroll-behavior: smooth;
 		font-family: 'Nixie One', cursive;
 	}
+
+
 </style>

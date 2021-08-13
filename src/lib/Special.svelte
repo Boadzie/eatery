@@ -1,6 +1,6 @@
 <main>
 	<div class="py-24 text-white bg-white">
-        <h2 class="text-5xl font-bold text-center text-gray-500">Special Menu</h2>
+        <h2 class="text-4xl font-bold text-center text-gray-500 lg:text-5xl">Special Menu</h2>
 		<div class="flex items-center justify-center lg:mx-14">
 			<div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
 				<div class="relative flex flex-col items-center justify-center p-4 bg-white">

@@ -7,9 +7,21 @@
 	import Blog from '$lib/Blog.svelte';
 </script>
 
-<Banner />
-<Feature />
-<Special/>
-<Menu/>
-<Swiper/>
-<Blog/>
+<section>
+	<Banner />
+</section>
+<section id="feature">
+	<Feature />
+</section>
+<section id="special">
+	<Special/>
+</section>
+<section id="menu">
+	<Menu/>
+</section>
+<section id="testimonials">
+	<Swiper/>
+</section>
+<section id="blog">
+	<Blog/>
+</section>

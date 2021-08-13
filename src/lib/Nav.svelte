@@ -7,15 +7,24 @@
 				document.getElementById('nav-content').classList.toggle('hidden');
 			};
 		})();
+
+		const navbar = document.querySelector('.navbar');
+		window.onscroll = () => {
+			if (window.scrollY > 200) {
+				navbar.classList.add('bg-gray-800');
+			} else {
+				navbar.classList.remove('bg-gray-800');
+			}
+		};
 	});
 </script>
 
 <nav
-	class="fixed z-50 flex flex-wrap items-center justify-between w-full p-4 bg-none sm green  pin-t"
+	class="fixed z-50 flex flex-wrap items-center justify-between w-full p-4 navbar bg-none sm green pin-t"
 >
 	<div class="flex items-center mr-6 text-white flex-no-shrink" />
 	<a
-		class="inline-block px-4 py-2 no-underline text-2xl  hover:text-white hover:text-underline font-extrabold"
+		class="inline-block px-4 py-2 text-2xl font-extrabold no-underline hover:text-white hover:text-underline"
 		href="/"
 	>
 		Elleven<span class="tomato-text ">15</span>
@@ -39,31 +48,47 @@
 		<ul class="items-center justify-center flex-1 text-2xl list-reset lg:flex">
 			<li class="mr-3">
 				<a
-					href="#menus"
+					href="#feature"
 					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
-					Menus
+					Feature
 				</a>
 			</li>
 			<li class="mr-3">
 				<a
-					href="#gallery"
+					href="#special"
 					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
-					Gallery
+					Special
 				</a>
 			</li>
 			<li class="mr-3">
 				<a
-					href="/"
+					href="#menu"
 					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
 				>
-					About
+					Menu
+				</a>
+			</li>
+			<li class="mr-3">
+				<a
+					href="#testimonials"
+					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
+				>
+					Testimonials
+				</a>
+			</li>
+			<li class="mr-3">
+				<a
+					href="#blog"
+					class="inline-block px-4 py-2 no-underline text-grey-dark hover:text-grey-lighter hover:text-underline"
+				>
+					Blog
 				</a>
 			</li>
 		</ul>
 		<a
-			class="text-2xl tomato-bg inline-block px-4 py-2 no-underline hover:text-white hover:text-grey-lighter hover:text-underline"
+			class="inline-block px-4 py-2 text-2xl no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
 			href="/">Contact Us</a
 		>
 	</div>
@@ -73,6 +98,7 @@
 	nav {
 		color: #ffff;
 	}
+
 
 	a:hover {
 		background-position: bottom;
