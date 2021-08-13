@@ -1,11 +1,11 @@
 <script>
     import { onMount } from "svelte";
-    import Swiper from "swiper";
+    import Swiper from "swiper/swiper.cjs.js";
     import SwiperCore, {
       Autoplay,
       Pagination,
       Navigation
-    } from "swiper"; 
+    } from "swiper/swiper.cjs.js"; 
   
     import "swiper/swiper.min.css";
     import "swiper/components/pagination/pagination.min.css";
