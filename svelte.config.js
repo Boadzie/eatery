@@ -1,6 +1,7 @@
 import preprocess from "svelte-preprocess";
 import netlify from '@sveltejs/adapter-netlify'
-/** @type {import('@sveltejs/kit').Config} */
+const pkg = require('./package.json');
+
 const config = {
     kit: {
         adapter: netlify(),
