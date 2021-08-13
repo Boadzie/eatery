@@ -5,7 +5,7 @@
       Autoplay,
       Pagination,
       Navigation
-    } from "swiper"; /* importing swiper/core throws error in build */
+    } from "swiper"; 
   
     import "swiper/swiper.min.css";
     import "swiper/components/pagination/pagination.min.css";
@@ -61,7 +61,7 @@
     <div class=" swiper-wrapper">
       {#each items as item}
         <div class="swiper-slide">
-          <div class="text-center bg-white  align-center" >
+          <div class="text-center bg-white align-center" >
             <div class="container px-5 py-24 mx-auto">
                 <div class="w-full mx-auto text-center xl:w-1/2 lg:w-3/4">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="tomato" class="inline-block w-8 h-8 mb-8 text-gray-400" viewBox="0 0 975.036 975.036">
