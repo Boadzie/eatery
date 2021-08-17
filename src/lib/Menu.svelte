@@ -4,7 +4,7 @@
 		<div class="grid grid-cols-1 mx-5 md:grid-cols-2 lg:grid-cols-4 lg:mx-14 gap-y-2">
 			<div class="flex flex-col justify-center bg-white">
 				<h2 class="p-2 font-mono text-2xl text-gray-400 lg:text-3xl">Grilled Caesar salad</h2>
-				<p class="p-3 text-lg font-bold text-gray-400">
+				<p class="p-3 text-lg font-bold opacity-100 text-gray-400">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...
 				</p>
 				<span class="p-3 text-2xl font-extrabold tomato">$14.54</span>

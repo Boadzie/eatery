@@ -11,7 +11,7 @@
 						/>
 					</div>
 					<h2 class="text-3xl font-bold tomato">Drinks</h2>
-					<p class="p-2 font-light text-gray-700">
+					<p class="p-2 font-bold text-gray-700">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto numquam
 						quibusdam accusamus, autem beatae unde nobis perferendis placeat. Recusandae aut, eaque
 						mollitia ab optio quas. Non tempora at illo.
@@ -22,7 +22,7 @@
 						<img class="w-24 object-cover object-center" src="img/fish.png" alt="" />
 					</div>
 					<h2 class="text-3xl font-bold tomato">Sea Foods</h2>
-					<p class="p-2 font-light text-gray-700">
+					<p class="p-2 font-bold text-gray-700">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto numquam
 						quibusdam accusamus, autem beatae unde nobis perferendis placeat. Recusandae aut, eaque
 						mollitia ab optio quas. Non tempora at illo.
@@ -33,7 +33,7 @@
 						<img class="w-24 object-cover object-center" src="img/coffee-cup.png" alt="" />
 					</div>
 					<h2 class="text-3xl font-bold tomato">Coffee</h2>
-					<p class="p-2 font-light text-gray-700">
+					<p class="p-2 font-bold text-gray-700">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto numquam
 						quibusdam accusamus, autem beatae unde nobis perferendis placeat. Recusandae aut, eaque
 						mollitia ab optio quas. Non tempora at illo.
@@ -44,7 +44,7 @@
 						<img class="w-24 object-cover object-center" src="img/bowl.png" alt="" />
 					</div>
 					<h2 class="text-3xl font-bold tomato">Locals</h2>
-					<p class="p-2 font-light text-gray-700">
+					<p class="p-2 font-bold text-gray-700">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto numquam
 						quibusdam accusamus, autem beatae unde nobis perferendis placeat. Recusandae aut, eaque
 						mollitia ab optio quas. Non tempora at illo.

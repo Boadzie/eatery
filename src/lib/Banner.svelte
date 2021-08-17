@@ -16,7 +16,7 @@
 				<h2 class="text-5xl font-bold text-left lg:text-8xl">
 					Delicious <span class="tomato">Foods</span>
 				</h2>
-				<p class="w-full py-3 text-lg font-light text-left lg:font-bold">
+				<p class="w-full py-3 text-lg font-bold text-left lg:font-bold">
 					You can easily align form elements in the center using flex property in Tailwind CSS.
 					Tailwind uses justify-center and items-center property which is an alternative CSS.
 				</p>

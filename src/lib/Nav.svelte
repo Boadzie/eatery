@@ -88,7 +88,7 @@
 			</li>
 		</ul>
 		<a
-			class="inline-block px-4 py-2 text-lg no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
+			class="inline-block px-2 py-2 text-lg no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
 			href="/">Contact Us</a
 		>
 	</div>
