@@ -45,7 +45,7 @@
 		class="flex-grow hidden w-full pt-6 text-lg font-bold lg:flex lg:items-center lg:w-auto lg:pt-0"
 		id="nav-content"
 	>
-		<ul class="items-center justify-center flex-1 text-2xl list-reset lg:flex">
+		<ul class="items-center justify-center flex-1 text-lg list-reset lg:flex">
 			<li class="mr-3">
 				<a
 					href="#feature"
@@ -88,7 +88,7 @@
 			</li>
 		</ul>
 		<a
-			class="inline-block px-4 py-2 text-2xl no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
+			class="inline-block px-4 py-2 text-lg no-underline tomato-bg hover:text-white hover:text-grey-lighter hover:text-underline"
 			href="/">Contact Us</a
 		>
 	</div>

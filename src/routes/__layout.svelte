@@ -15,7 +15,7 @@
 <style>
 	:global(body, html) {
 		scroll-behavior: smooth;
-		font-family: 'Nixie One', cursive;
+		font-family: 'Raleway', sans-serif;
 	}
 
 

@@ -1,91 +1,35 @@
-<script>
-    import { onMount } from "svelte";
-    import Swiper from "swiper/swiper.cjs.js";
-    import SwiperCore, {
-      Autoplay,
-      Pagination,
-      Navigation
-    } from "swiper/swiper.cjs.js"; 
-  
-    import "swiper/swiper.min.css";
-    import "swiper/components/pagination/pagination.min.css";
-    import "swiper/components/navigation/navigation.min.css";
-  
-    let container, swiper, next, prev;
-    onMount(() => {
-      SwiperCore.use([Autoplay, Pagination, Navigation]);
-      swiper = new Swiper(container, {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 1000,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: next,
-          prevEl: prev
-        }
-      });
-      return () => {
-        swiper.destroy();
-      };
-    });
-  
-    const items = [
-      {
-        name: "Leonardo Davinci",
-        profession: "Teacher",
-        message: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware"
-      },
-      {
-        name: "Maria Garsier",
-        profession: "Lawyer",
-        message: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware"
-      },
-      {
-        name: "Oliver Petter",
-        profession: "Doctor",
-        message: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware"
-      },
-      {
-        name: "Margarida Sam",
-        profession: "Student",
-        message: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware"
-      }
-    ];
-  </script>
-  
-  
-  
-  <div class="swiper-container" bind:this={container}>
-    <div class=" swiper-wrapper">
-      {#each items as item}
-        <div class="swiper-slide">
-          <div class="text-center bg-white align-center" >
-            <div class="container px-5 py-24 mx-auto">
-                <div class="w-full mx-auto text-center xl:w-1/2 lg:w-3/4">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="tomato" class="inline-block w-8 h-8 mb-8 text-gray-400" viewBox="0 0 975.036 975.036">
-                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                  </svg>
-                  <p class="text-lg leading-relaxed">{item.message}</p>
-                  <span class="inline-block w-10 h-1 mt-8 mb-6 rounded tomato-bg"></span>
-                  <h2 class="text-sm font-medium tracking-wider text-gray-900 title-font">{item.name}</h2>
-                  <p class="text-gray-500">{item.profession}</p>
-                </div>
-              </div>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <h2 class="pb-12 text-4xl font-bold text-center text-gray-500 lg:text-5xl">What our Customers Say</h2>
+   
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div class="h-full text-center">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+          <p class="leading-relaxed">I love your food soo much. Its yummy. Especially the Jangle Rice</p>
+          <span class="inline-block h-1 w-10 rounded bg-red-400 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Holden Causfield</h2>
+          <p class="text-gray-500">Business Woman</p>
         </div>
+      </div>
+      <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div class="h-full text-center">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+          <p class="leading-relaxed"> I love your food soo much. Its yummy. Especially the Jangle Rice.</p>
+          <span class="inline-block h-1 w-10 rounded bg-red-400 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font capitalize tracking-wider text-sm">Alper Kamu</h2>
+          <p class="text-gray-500">Lawyer</p>
         </div>
-      {/each}
+      </div>
+      <div class="lg:w-1/3 lg:mb-0 p-4">
+        <div class="h-full text-center">
+          <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://images.unsplash.com/photo-1545912452-8aea7e25a3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+          <p class="leading-relaxed">This is soo good. I love your food soo much. Its yummy.</p>
+          <span class="inline-block h-1 w-10 rounded bg-red-400 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Henry Letham</h2>
+          <p class="text-gray-500">Teacher</p>
+        </div>
+      </div>
     </div>
-    <div class="swiper-button-next" bind:this={next}></div>
-    <div class="swiper-button-prev" bind:this={prev}></div>
   </div>
-
-<style>
-    .swiper-button-next, .swiper-button-prev{
-        color: tomato
-    }
-    .tomato-bg{
-        background-color: tomato
-    }
-</style>
+</section>
