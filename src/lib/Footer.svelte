@@ -1,6 +1,6 @@
 <section class="mx-auto bg-gray-800 py-14">
-<div class="flex items-center justify-center">
-    <div class="container grid grid-cols-1 gap-4  lg:grid-cols-3">
+<div class="flex items-center justify-center px-14 ">
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
         <div class="flex flex-col">
             <h2 class="text-2xl font-extrabold text-white">About</h2>
             <p class="py-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
