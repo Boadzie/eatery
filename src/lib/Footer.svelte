@@ -33,7 +33,7 @@
              <h2 class="text-2xl font-extrabold text-white">Opening Hours</h2>
              <p class="py-3 font-bold text-gray-400">Sunday - Saturday <span class="mx-2">8AM - 11:15PM</span></p>
      
-             <h2 class="py-3 text-2xl font-extrabold text-white">Contact Info</h2>
+             <h2 id="contact" class="py-3 text-2xl font-extrabold text-white">Contact Info</h2>
              <div class="flex flex-col py-2 text-white">
                  <p class="inline-block"><span class="mr-1 text-lg font-extrabold">Address:</span> Lake Side Estate, Adjiringanor Accra, Ghana</p> 
                  <p class="inline-block"><span class="mr-1 text-lg font-extrabold ">Telephone:</span> +1 242 4942 290</p> 
