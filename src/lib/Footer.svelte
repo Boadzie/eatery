@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
         <div class="flex flex-col">
             <h2 class="text-2xl font-extrabold text-white">About</h2>
-            <p class="py-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+            <p class="py-4 font-bold text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
             <div class="flex py-4 space-x-2">
              <svg xmlns="http://www.w3.org/2000/svg" class="px-2 bg-white rounded-full cursor-pointer hover:bg-transparent tomato icon icon-tabler icon-tabler-brand-twitter" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="tomato" fill="none" stroke-linecap="round" stroke-linejoin="round">
                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -34,7 +34,7 @@
              <p class="py-3 font-bold text-gray-400">Sunday - Saturday <span class="mx-2">8AM - 11:15PM</span></p>
      
              <h2 class="py-3 text-2xl font-extrabold text-white">Contact Info</h2>
-             <div class="py-2 text-white">
+             <div class="flex flex-col py-2 text-white">
                  <p class="inline-block"><span class="mr-1 text-lg font-extrabold">Address:</span> Lake Side Estate, Adjiringanor Accra, Ghana</p> 
                  <p class="inline-block"><span class="mr-1 text-lg font-extrabold ">Telephone:</span> +1 242 4942 290</p> 
                  <p class="inline-block"><span class="mr-1 text-lg font-extrabold ">Email:</span>elleven15@food.com</p> 
